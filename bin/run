@@ -13,7 +13,7 @@ song.save
 song = Song.new(name: "Ziggy Stardust", album:  "Spiders from Mars")
 song.save
 
-song1 = Song.find_by(Ziggy Stardust)
+song1 = Song.find_by("Ziggy Stardust")
 puts song1
 
 
