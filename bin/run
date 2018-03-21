@@ -10,11 +10,6 @@ puts "song name: " + song.name
 puts "song album: " + song.album
 song.save
 
-song = Song.new(name: "Ziggy Stardust", album:  "Spiders from Mars")
-song.save
-
-song1 = Song.find_by_name("Ziggy Stardust")
-puts song1
 
 
 
